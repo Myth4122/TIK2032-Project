@@ -14,7 +14,7 @@ body {
     justify-content: center;
     gap: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
 .nav-link {
@@ -22,11 +22,14 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
-    transition: color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #ffd700;
+    padding: 8px;
+    background-color: #424242;
+    transition: .5s ease-in-out;
+    border-radius: 8px ;
 }
 
 /* Header */
