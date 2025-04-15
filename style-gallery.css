@@ -74,3 +74,41 @@ header#home h1 {
 .gallery-grid img:hover {
     transform: scale(1.05);
 }
+
+/* Image Popup Overlay */
+.image-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.popup-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
