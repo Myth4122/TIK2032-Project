@@ -8,13 +8,24 @@
 <body>
 
     <!-- Navigasi -->
-    <nav class="navbar">
+    <nav>
         <a href="index.html" class="nav-link">Home</a>
         <a href="gallery.html" class="nav-link">Gallery</a>
         <a href="blog.html" class="nav-link">Blog</a>
         <a href="contact.html" class="nav-link">Contact</a>
+        <a onclick="darkMode()" class="nav-link">Theme</a>
     </nav>
     <!-- End Navigasi -->
+    
+    <!-- inisialisasi fungsi -->
+     <script>
+        let body = document.body;
+
+        function darkMode() {
+            console.log('dark mode di clik');
+            body.classList.toggle("theme");
+        }
+     </script>
 
     <!-- Header -->
     <header id="home" class="header">

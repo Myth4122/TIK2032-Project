@@ -6,8 +6,12 @@ body {
     padding: 20px;
 }
 
+.theme {
+    background-color: white;
+}
+
 /* Navigasi */
-.navbar {
+nav{
     background-color: #282828;
     padding: 15px 20px;
     display: flex;
@@ -30,6 +34,7 @@ body {
     background-color: #424242;
     transition: .5s ease-in-out;
     border-radius: 8px ;
+    cursor: pointer;
 }
 
 /* Header */
